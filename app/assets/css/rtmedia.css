@@ -857,7 +857,7 @@ button::-moz-focus-inner {
   padding: 0;
   width: 90px;
   height: 110px;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
   opacity: 0;
   z-index: 10;
   -webkit-transition: all 300ms ease-out;
@@ -2670,8 +2670,7 @@ h2.rtm-gallery-title {
   margin: 10px -5px;
 }
 .rtmedia-container .rtmedia-list .rtmedia-list-item {
-  float: left;
-  margin: 5px;
+  margin: auto;
   position: relative;
 }
 .rtmedia-container .rtmedia-list .rtmedia-list-item > a {
@@ -2936,7 +2935,7 @@ a.rtmedia-upload-media-link {
 #buddypress .mejs-controls button {
   padding: 4px 8px;
   border: none;
-  background: rgba(0, 0, 0, 0) url("../../../lib/media-element/mejs-controls.png") no-repeat;
+  background: transparent url("../../../lib/media-element/mejs-controls.png") no-repeat;
 }
 #buddypress .mejs-controls .mejs-play > button {
   background-position: 0 0;
