@@ -308,10 +308,14 @@ h2.rtm-gallery-title  {
 }
 
 .media_search.media_search {
-	float: right;
 	border: 1px solid #ccc;
-	margin-left: 5px;
-	padding: 3px 0;
+	margin: 10px auto;
+	width: 222px;
+	float: left;
+
+	i {
+		margin-top: 3px;
+	}
 
 	.media_search_input {
 		width: 200px;
